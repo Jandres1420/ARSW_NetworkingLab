@@ -58,7 +58,7 @@ public class URLReader {
 
     /**
      * Lectura con la conexión por URLConnection
-     * y  poniendo toda la información de la pagina en resultado.html
+     * y  poniendo toda la información de la pagina en index.html
      * @param urlConnection
      */
     public void lectura(URLConnection urlConnection){
@@ -71,7 +71,7 @@ public class URLReader {
                 //System.out.println(inputLine);
                 htmlFile+=inputLine;
             }
-            BufferedWriter writer = new BufferedWriter(new FileWriter("resultado.html"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("index.html"));
             System.out.println("ESTE ES EL HTML \n" + htmlFile);
             writer.write(htmlFile);
             writer.close();

@@ -31,7 +31,10 @@ debe calcular senos. Si enseguida recibe 0 debe responder 0.
 Se ejecuto el cliente y se le ingreso los parametros correspondientes y se reviso el output en el servidor
 ![](img/server.png)
 ## Ultimo punto
-
+Se demuestra que funciona.
+![](img/index.png)
+Y tambien con imagenes.
+![](img/spoti.png)
 ## LOC/h.
 + Entendimiento del problema: **1 Hora**
 + Diseño del problema: **40 minutos**
