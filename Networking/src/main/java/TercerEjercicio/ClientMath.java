@@ -8,6 +8,13 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 
 public class ClientMath {
+    /**
+     * Clase que se conecta al puerto 35000 en localhost , enviando el input que el servidor va a tomar
+     * Ej : fun:cos
+     * 0
+     * @param args
+     * @throws IOException
+     */
     public static void main(String[] args) throws IOException {
 
         Socket echoSocket = null;
